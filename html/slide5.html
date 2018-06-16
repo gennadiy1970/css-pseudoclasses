@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Структурные псевдоклассы</h2>
+        <h3>child vs of-type</h3>
+        <div class="wrp">
+            <div class="wrp__box oftype-n2">
+                <h4>p:nth-of-type(2n)</h4>
+                <div class="oftype-n2">
+                    <p>paragraph 1 </p>
+                    <p>paragraph 2 </p>
+                    <p>paragraph 3 </p>
+                </div>
+            </div>
+            <div class="wrp__box oftype-n2">
+                <h4>p:nth-of-type(2n)</h4>
+                <div class="oftype-n2">
+                    <h6>headline</h6>
+                    <p>paragraph 1 </p>
+                    <p>paragraph 2 </p>
+                    <p>paragraph 3 </p>
+                </div>
+            </div>
+
+            <div class="wrp__box chtype-n2">
+                <h4>p:nth-child(2n)</h4>
+                <div class="chtype-n2">
+                    <p>paragraph 1 </p>
+                    <p>paragraph 2 </p>
+                    <p>paragraph 3 </p>
+                </div>
+            </div>
+            <div class="wrp__box chtype-n2">
+                <h4>p:nth-child(2n)</h4>
+                <div class="chtype-n2">
+                    <h6>headline</h6>
+                    <p>paragraph 1 </p>
+                    <p>paragraph 2 </p>
+                    <p>paragraph 3 </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="./slide6.html" class="next">next</a>
+    <a href="./slide4.html" class="back">back</a>
+</body>
+
+</html>

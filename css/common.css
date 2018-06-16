@@ -1,0 +1,162 @@
+body {
+    background: navy;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.wrapper {
+    width: 768px;
+    margin: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    text-decoration: none;
+    color: salmon;
+}
+
+.box {
+    width: 360px;
+    display: inline-block;
+    background: #00a;
+    border: 1px solid #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+
+kbd {
+    color: gold;
+}
+
+.comment {
+    color: grey;
+    font-style: italic;
+}
+
+.selected {
+    color: red;
+    text-shadow: 2px 2px 3px hsla(0, 0%, 0%, 0.5);
+}
+
+.orange {
+    color: orange;
+}
+
+.link {
+    color: salmon;
+    text-decoration: underline dotted red;
+}
+
+
+.link:hover {
+    text-decoration: overline dotted white;
+    color: red;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: green;
+}
+
+.wrp  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrp__box {
+    width: 24%;
+    background: #00a;
+    border: 1px solid #fff;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.ufch-first  li:first-child,
+.ufch-last  li:last-child,
+.ufch-odd li:nth-child(odd),
+.ufch-3n li:nth-child(3n),
+.ufch-3n1 li:nth-child(3n + 1),
+.ufch--n3 li:nth-child(-n + 3),
+.ufch-n4 li:nth-child(n + 4),
+.ufch-even li:nth-child(even) {
+    border: 2px dashed red;
+    background: hsla(0, 100%, 100%, 0.2);
+}
+
+.oftype-first  li:first-of-type,
+.oftype-last  li:last-of-type,
+.oftype-odd li:nth-of-type(odd),
+.oftype-3n li:nth-of-type(3n),
+.oftype-3n1 li:nth-of-type(3n + 1),
+.oftype--n3 li:nth-of-type(-n + 3),
+.oftype-n4 li:nth-of-type(n + 4),
+.oftype-even li:nth-of-type(even) {
+    border: 2px dashed orchid;
+    background: hsla(0, 100%, 100%, 0.2);
+}
+
+.oftype-n2 p:nth-of-type(2n),
+.notoftype p:not(:nth-last-of-type(2)),
+.notoftype2 p:nth-last-of-type(2) {
+    background: hsla(0, 100%, 100%, 0.2);
+    border: 2px dashed orchid;
+}
+
+.chtype-n2 p:nth-child(2n),
+.nochtype p:last-child,
+.nochtype2 p:not(:last-child)
+{
+    background: hsla(0, 100%, 100%, 0.2);
+    border: 2px dashed red;
+}
+
+.mb10 li {
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px 2px hsla(0, 100%, 100%, 0.5);
+}
+
+
+.back,
+.next {
+    position: fixed;
+    display: block;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: navy;
+    color: gold;
+    cursor: pointer;
+    box-shadow: 0 0 5px 2px hsla(0, 100%, 100%, 0.2);
+  }
+  .next {
+    right: 50px;
+  }
+  .back {
+    left: 50px;
+  }
+  .back:hover,
+  .next:hover  {
+    box-shadow: 0 0 5px 4px hsla(0, 100%, 100%, 0.5);
+  }
+
+/*  slide-1   */
+  .my-focus input:focus,
+  .my-hover:hover,
+  .my-active:active
+   {
+    color: red;
+  }

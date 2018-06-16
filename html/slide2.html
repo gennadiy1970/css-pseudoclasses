@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+
+</head>
+<body>
+    <div class="wrapper">
+            <h2>Структурные псевдоклассы</h2>
+            <h3><kbd>:nth</kbd>-chlild(An + B)</h3>
+            <h3><kbd>:nth</kbd>-of-type(An + B)</h3>
+            <h4>Правила :nth-(<kbd>An + B</kbd>)
+                </h4>
+                <ul class="mb10">
+                    <li>правило
+                        <kbd>:nth-</kbd> ведет отсчет элементов начиная с 1 и не более числа элементов в списке</li>
+                    <li>
+                        <kbd>A</kbd>,
+                        <kbd>n</kbd>,
+                        <kbd>B</kbd> - любые целые положительные числа</li>
+                    <li>
+                        <kbd>n</kbd> начинает отсчет с 0</li>
+                    <li>(
+                        <kbd>An + B</kbd>) будет применяться, если результат 1 и не более числа элементов в списке </li>
+                    <li>(
+                        <kbd>An + B</kbd>) =&gt; (
+                        <kbd>0*n + 1</kbd>) =&gt; (
+                        <kbd>1</kbd>) - то же что и
+                        <kbd>first-</kbd>
+                    </li>
+                    <li>(
+                        <kbd>An + B</kbd>) =&gt; (
+                        <kbd>2*n + 0</kbd>) =&gt; (
+                        <kbd>n=0 -&gt; 0, n=1 -&gt; 2, n=2 -&gt; 4, ...</kbd>) - то же что и
+                        <kbd>even</kbd>
+                    </li>
+                    <li>(
+                        <kbd>An + B</kbd>) =&gt; (
+                        <kbd>2*n + 1</kbd>) =&gt; (
+                        <kbd>n=0 -&gt; 1, n=1 -&gt; 3, n=2 -&gt; 5, ...</kbd>) - то же что и
+                        <kbd>odd</kbd>
+                    </li>
+                    <li>(
+                        <kbd>-An + B</kbd>) =&gt; (
+                        <kbd>-1*n + 3</kbd>) =&gt;
+                        <br>(
+                        <kbd>n=0 -&gt; 3, n=1 -&gt; 2, n=2 -&gt; 1</kbd>) - выделяем первые 3 элемента
+                    </li>
+                    <li>(
+                        <kbd>An + B</kbd>) =&gt; (
+                        <kbd>1*n + 4</kbd>) =&gt;
+                        <br>(
+                        <kbd>n=0 -&gt; 4, n=1 -&gt; 5, n=2 -&gt; 6, ...</kbd>) - выделяем все, после первых 3-х элементов
+                    </li>
+                </ul>
+    </div>
+        <a href="./slide3.html" class="next">next</a>
+        <a href="./slide1.html" class="back">back</a>
+</body>
+</html>

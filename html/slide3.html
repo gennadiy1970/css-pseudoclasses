@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Child</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+
+</head>
+<body>
+        <div class="wrapper">
+                <h2>Структурные псевдоклассы</h2>
+                <h3>child</h3>
+                <div class="wrp">
+                        <div class="wrp__box ufch-first">
+                            <h4>li:first-child</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+            
+                        </div>
+                        <div class="wrp__box ufch-last">
+                            <h4>li:last-child</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+                        </div>
+                        <div class="wrp__box ufch-odd">
+                            <h4>li:nth-child(odd)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+                        </div>
+                        <div class="wrp__box ufch-even">
+                            <h4>li:nth-child(even)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+            
+                        </div>
+                    </div>
+            
+                    <div class="wrp">
+                        <div class="wrp__box ufch-3n">
+                            <h4>li:nth-child(3n)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+                        </div>
+                        <div class="wrp__box ufch-3n1">
+                            <h4>li:nth-child(3n + 1)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+                        </div>
+                        <div class="wrp__box ufch--n3">
+                            <h4>li::nth-child(-n + 3)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+            
+                        </div>
+                        <div class="wrp__box ufch-n4">
+                            <h4>li:nth-child(n+4)</h4>
+                            <ul>
+                                <li>item_1</li>
+                                <li>item_2</li>
+                                <li>item_3</li>
+                                <li>item_4</li>
+                                <li>item_5</li>
+                                <li>item_6</li>
+                            </ul>
+                        </div>
+                    </div>
+        </div>
+        <a href="./slide4.html" class="next">next</a>
+        <a href="./slide2.html" class="back">back</a>
+</body>
+</html>
