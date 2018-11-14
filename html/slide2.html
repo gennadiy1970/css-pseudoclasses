@@ -26,34 +26,43 @@
                     <li>
                         <kbd>n</kbd> начинает отсчет с 0</li>
                     <li>(
-                        <kbd>An + B</kbd>) будет применяться, если результат 1 и не более числа элементов в списке </li>
+                        <kbd>An + B</kbd>) будет применяться, если результат окажется в промежутке от 1 до числа равного числу элементов в списке </li>
                     <li>(
-                        <kbd>An + B</kbd>) =&gt; (
-                        <kbd>0*n + 1</kbd>) =&gt; (
-                        <kbd>1</kbd>) - то же что и
+                        <kbd>An + B</kbd>) =&gt; <br>
+                        (<kbd>A = 0, B = 1</kbd>) =&gt; <br>
+                        (<kbd>0*n + 1</kbd>) =&gt; <br>
+                        (<kbd>1</kbd>) - то же что и
                         <kbd>first-</kbd>
                     </li>
                     <li>(
-                        <kbd>An + B</kbd>) =&gt; (
-                        <kbd>2*n + 0</kbd>) =&gt; (
-                        <kbd>n=0 -&gt; 0, n=1 -&gt; 2, n=2 -&gt; 4, ...</kbd>) - то же что и
+                        <kbd>An + B</kbd>) =&gt; <br>
+                        (<kbd>A = 2, B = 0</kbd>) =&gt; <br>
+                        (<kbd>2*n + 0</kbd>) =&gt; <br>
+                        (<kbd>2*n</kbd>) =&gt; <br>
+                        (<kbd>n=0 -&gt; 0, n=1 -&gt; 2, n=2 -&gt; 4, ...</kbd>) - то же что и
                         <kbd>even</kbd>
                     </li>
                     <li>(
-                        <kbd>An + B</kbd>) =&gt; (
-                        <kbd>2*n + 1</kbd>) =&gt; (
-                        <kbd>n=0 -&gt; 1, n=1 -&gt; 3, n=2 -&gt; 5, ...</kbd>) - то же что и
+                        <kbd>An + B</kbd>) =&gt; <br>
+                        (<kbd>2*n + 1</kbd>) =&gt; <br>
+                        (<kbd>A = 2, B = 1</kbd>) =&gt; <br>
+                        (<kbd>2n + 1</kbd>) =&gt; <br>
+                        (<kbd>n=0 -&gt; 1, n=1 -&gt; 3, n=2 -&gt; 5, ...</kbd>) - то же что и
                         <kbd>odd</kbd>
                     </li>
-                    <li>(
-                        <kbd>-An + B</kbd>) =&gt; (
-                        <kbd>-1*n + 3</kbd>) =&gt;
+                    <li>
+                        (<kbd>-An + B</kbd>) =&gt; <br>
+                        (<kbd>A = -1, B = 3</kbd>) =&gt; <br>
+                        (<kbd>-1*n + 3</kbd>) =&gt;<br>
+                        (<kbd>-n + 3</kbd>) =&gt;
                         <br>(
                         <kbd>n=0 -&gt; 3, n=1 -&gt; 2, n=2 -&gt; 1</kbd>) - выделяем первые 3 элемента
                     </li>
                     <li>(
-                        <kbd>An + B</kbd>) =&gt; (
-                        <kbd>1*n + 4</kbd>) =&gt;
+                        <kbd>An + B</kbd>) =&gt;<br>
+                        (<kbd>A = 1, B = 4</kbd>) =&gt;<br>
+                        (<kbd>1*n + 4</kbd>) =&gt;<br>
+                        (<kbd>n + 4</kbd>) =&gt;
                         <br>(
                         <kbd>n=0 -&gt; 4, n=1 -&gt; 5, n=2 -&gt; 6, ...</kbd>) - выделяем все, после первых 3-х элементов
                     </li>
